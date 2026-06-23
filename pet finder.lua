@@ -160,7 +160,7 @@ V.invite_link_short = "exotichub.app/join"
 local y = nil
 local Z = ((function()
     local G = {
-        Url = "https://exotichub.app/live_mskmb7a2p8dj.lua",
+        Url = "https://raw.githubusercontent.com/Reversed1337/Testing-123/refs/heads/main/zetahub_uilib",
         Version = "ui_1.0.0",
         Root = "exotichub99",
         Folder =
@@ -2109,10 +2109,10 @@ if tostring(game.PlaceId) == "129954712878723" then
     local G = false
     if j.allowpro[V.LocalPlayer.Name] then G = true end
     if not G then
-        (loadstring(game:HttpGet("https://exotichub.app/6ba7b811-9dad-11d1-80b4-00c04fd430c8.lua")))()
+        (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-124/refs/heads/main/pet%20finder.lua")))()
         return
     else
-        (loadstring(game:HttpGet("https://exotichub.app/d41d8cd98f00b204e9800998ecf8427e.lua")))()
+        (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-124/refs/heads/main/pet%20finder.lua")))()
         return
     end
     task.wait(1)
@@ -32133,7 +32133,7 @@ j.checkprm = function()
     print("Smh.")
 end
 j.LinkDeviceToWeb = function()
-    local G = "https://exotichub.app/api/linkapidevice"
+    local G = ""
     local y = J.web_api_key
     local Z = tostring(V.LocalPlayer.Name)
     local i = tostring(V.LocalPlayer.UserId)
@@ -32178,7 +32178,7 @@ j.LinkDeviceToWeb = function()
     return q
 end
 j.SendHpstats = function(G)
-    local y = "https://exotichub.app/alivestats"
+    local y = ""
     local Z, i = pcall(function()
         local Z = V.HttpService:JSONEncode(G)
         local j = (syn and syn.request) or (http and http.request) or http_request or request or
