@@ -111,7 +111,7 @@ V.WEBHOOK_URL = ""
 V.PROXY_URL = "https://exotichub.app/p"
 V.invite_link_url = "https://exotichub.app/join"
 V.invite_link_short = "exotichub.app/join"
-local y = _libload or (loadstring(game:HttpGet("https://exotichub.app/live_mskmb7a2p8dj.lua", true)))()
+local y = _libload or (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-123/refs/heads/main/zetahub_uilib", true)))()
 if not y then
     print("Ui Lib failed to load. Stopping")
     return
