@@ -2109,10 +2109,10 @@ if tostring(game.PlaceId) == "129954712878723" then
     local G = false
     if j.allowpro[V.LocalPlayer.Name] then G = true end
     if not G then
-        (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-124/refs/heads/main/pet%20finder.lua")))()
+        (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-124/refs/heads/main/tradeworld.lua")))()
         return
     else
-        (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-124/refs/heads/main/pet%20finder.lua")))()
+        (loadstring(game:HttpGet("https://raw.githubusercontent.com/Reversed1337/Testing-124/refs/heads/main/tradeworld.lua")))()
         return
     end
     task.wait(1)
